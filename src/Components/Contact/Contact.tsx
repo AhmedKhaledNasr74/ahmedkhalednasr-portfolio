@@ -35,7 +35,7 @@ export function Contact() {
                         updateScore("contact");
                     },
                     (error) => {
-                        console.error("Failed to send message:", error.text);
+                        console.error("Failed to send message:", error);
                         setContactMessage(
                             "Failed to send message. Please try again later."
                         );
