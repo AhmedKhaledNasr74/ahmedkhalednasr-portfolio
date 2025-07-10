@@ -16,9 +16,12 @@ const Projects = () => {
                 A small selection of{" "}
                 <span className="text-[#A374FF]">recent projects</span>
             </h2>
-            <div className="py-20 grid md:grid-cols-2 sm:gap-x-10 gap-y-40 sm:grid-cols-1 justify-center ">
+            <div className="py-20 grid md:grid-cols-2 sm:gap-x-10 gap-y-40 sm:grid-cols-1 justify-center p-2">
                 {projects.map((project: Project) => (
-                    <div className="h-[30rem] max-w-[40rem]" key={project.id}>
+                    <div
+                        className="h-[30rem] sm:max-w-[40rem] max-w-[22rem] "
+                        key={project.id}
+                    >
                         <PinContainer
                             children={
                                 <ProjectDetails

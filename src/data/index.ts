@@ -1,9 +1,9 @@
-import AlgoDraw from "../assets/AlgoDraw.png";
+import AlgoDraw from "../assets/AlgoDraw.jpg";
 import soduku from "../assets/ai-soduku-solver.png";
-import desktop from "../assets/desktop.png";
-import imageGenerator from "../assets/imageGenerator.png";
-import cvBuilder from "../assets/cvBuilder.png";
-import portfolio from "../assets/portfolio.png";
+import desktop from "../assets/desktop.jpg";
+import imageGenerator from "../assets/imageGenerator.jpg";
+import cvBuilder from "../assets/cvBuilder.jpg";
+import portfolio from "../assets/portfolio.jpg";
 import typescriptImg from "../assets/typescript.svg";
 import tailwindImg from "../assets/tailwind.svg";
 import reactImg from "../assets/react.svg";
@@ -15,6 +15,7 @@ import toast from "../assets/toast.png";
 import b1 from "../assets/b1.svg";
 import b4 from "../assets/b4.svg";
 import b5 from "../assets/b5.svg";
+import girl from "../assets/Thinking face-bro.jpg";
 // import ahmed from "../assets/AhmedKhaled.png";
 import ouda from "../assets/ouda.jpg";
 import gomaa from "../assets/gomaa.jpeg";
@@ -261,6 +262,12 @@ export const testimonials = [
         name: "Ahmed Ouda",
         title: "Software Engineer Intern @ Ejada",
         image: ouda,
+    },
+    {
+        quote: "Thank u for your honesty u’re the most talented one i’ve ever met, thanks for perfect timing of the process i hope it’s not the last time to work together 🥰🥰",
+        name: "Menna Khaled",
+        title: "",
+        image: girl,
     },
     {
         quote: "Ahmed Khaled is an exceptional programmer with an impressive skill set, especially in front-end development. His ability to create clean, efficient, and visually appealing designs reflects his deep understanding of coding principles and user experience. I genuinely admire his dedication to mastering his craft and staying updated with the latest technologies. His work consistently stands out for its creativity, precision, and professionalism.",
