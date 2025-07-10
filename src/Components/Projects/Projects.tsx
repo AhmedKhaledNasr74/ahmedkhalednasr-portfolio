@@ -16,7 +16,7 @@ const Projects = () => {
                 A small selection of{" "}
                 <span className="text-[#A374FF]">recent projects</span>
             </h2>
-            <div className="py-20 grid md:grid-cols-2 gap-x-10 gap-y-40 sm:grid-cols-1">
+            <div className="py-20 grid md:grid-cols-2 sm:gap-x-10 gap-y-40 sm:grid-cols-1 justify-center ">
                 {projects.map((project: Project) => (
                     <div className="h-[30rem] max-w-[40rem]" key={project.id}>
                         <PinContainer

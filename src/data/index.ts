@@ -265,13 +265,13 @@ export const testimonials = [
     {
         quote: "Ahmed Khaled is an exceptional programmer with an impressive skill set, especially in front-end development. His ability to create clean, efficient, and visually appealing designs reflects his deep understanding of coding principles and user experience. I genuinely admire his dedication to mastering his craft and staying updated with the latest technologies. His work consistently stands out for its creativity, precision, and professionalism.",
         name: "Ahmed Ramadan",
-        title: "",
+        title: "Ex software engineer @ scale.ai",
         image: ramadan,
     },
     {
         quote: "I’ve had the pleasure of working closely with Ahmed Khaled Nasr on several college projects, and I can confidently say he’s one of the most skilled programmers I know. His problem-solving abilities are exceptional, and he never leaves anything incomplete in our projects. He’s dedicated, hardworking, and always collaborates well with the team. I also admire his web designs; they’re always clean and creative. On top of that, he somehow always manages to hit me with headshots in Valorant! I truly hope we can continue working together in the future, as it’s always a great experience teaming up with him.",
         name: "Ahmed khaled",
-        title: "mentor @ helwan icpc community",
+        title: "vice head @ helwan icpc community",
         image: gomaa,
     },
 ];
