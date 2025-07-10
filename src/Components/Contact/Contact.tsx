@@ -46,7 +46,9 @@ export function Contact() {
         }
     };
     return (
-        <div id="Contact">
+        <div id="Contact" className="relative">
+            {/* Gradient background overlay */}
+            <div className="block md:hidden absolute inset-0 z-10 pointer-events-none bg-gradient-to-l from-[#000319] via-transparent to-[#000319]" />
             <LampContainer>
                 <motion.h1
                     initial={{ opacity: 0.5, y: 100 }}
@@ -61,7 +63,7 @@ export function Contact() {
                     So, You want to <br /> Contact me?
                 </motion.h1>
             </LampContainer>
-            <div className="-translate-y-[70%]">
+            <div className="-translate-y-[70%] relative z-20">
                 <div className="p-4 mx-auto max-w-xl  font-[sans-serif]">
                     {contactMessage && (
                         <div className="w-full text-white formBg bg-transparent py-2.5 px-4  border border-white-100 text-center text-2xl">
@@ -81,14 +83,14 @@ export function Contact() {
                             placeholder="Name"
                             name="user_name"
                             required
-                            className="w-full text-white formBg bg-transparent py-2.5 px-4  border focus:border-white-100  text-sm outline-none transition-all"
+                            className="w-full text-white formBg bg-transparent py-2.5 px-4 border border-black focus:border-black text-sm outline-none transition-all"
                         />
                         <input
                             type="email"
                             placeholder="Email"
                             name="user_email"
                             required
-                            className="w-full text-white formBg bg-transparent py-2.5 px-4  border focus:border-white-100 text-sm outline-none transition-all"
+                            className="w-full text-white formBg bg-transparent py-2.5 px-4 border border-black focus:border-black text-sm outline-none transition-all"
                         />
 
                         <textarea
@@ -96,7 +98,7 @@ export function Contact() {
                             name="message"
                             required
                             rows={4}
-                            className="w-full text-white formBg bg-transparent px-4  border focus:border-white-100  text-sm pt-3 outline-none transition-all"
+                            className="w-full text-white formBg bg-transparent px-4 border border-black focus:border-black text-sm pt-3 outline-none transition-all"
                         ></textarea>
 
                         <LightButton title="Send" />

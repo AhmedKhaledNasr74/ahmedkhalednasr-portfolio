@@ -9,7 +9,7 @@ export function CanvasRevealEffectDemo() {
             <h2 className=" text-4xl md:text-5xl text-center  font-bold text-white">
                 My <span className="text-[#A374FF]">Approach</span>
             </h2>
-            <div className="py-14 flex flex-col lg:flex-row items-center justify-center w-full gap-4 mx-auto px-8">
+            <div className="py-14 flex flex-col md:flex-row  items-center justify-center w-full gap-4 mx-auto px-8">
                 <Card
                     title={"Planning & Strategy"}
                     des={`We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.`}
@@ -69,7 +69,7 @@ const Card = ({
         <div
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
-            className="border  group/canvas-card flex items-center justify-center border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative h-[20rem] md:h-[30rem] lg:h-[35rem] bg-slate-900"
+            className="border  group/canvas-card flex items-center justify-center border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative h-[30rem] md:h-[30rem] lg:h-[35rem] bg-slate-900"
         >
             <Icon className="absolute h-6 rounded-lg w-6 opacity-20 -top-3 -left-3 text-white" />
             <Icon className="absolute h-6 rounded-lg w-6 opacity-20 -bottom-3 -left-3 text-white " />
